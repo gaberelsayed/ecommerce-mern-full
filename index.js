@@ -9,7 +9,7 @@ const path = require("path");
 const errorMiddleware = require("./middleware/error");
 
 const app = express();
-dotenv.config();
+dotenv.config();    
 
 app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: true }));
